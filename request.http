@@ -1,0 +1,30 @@
+# ---------------------------- #
+# ---------------------------- #
+# POST http://localhost:7000/livros HTTP/1.1
+# content-type: application/json
+
+# {
+#   "id": 3,
+#   "nome": "Livro 3"
+# }
+
+
+# ---------------------------- #
+# ---------------------------- #
+
+GET http://localhost:7000/livros HTTP/1.1
+content-type: application/json
+
+# ---------------------------- #
+# ---------------------------- #
+
+# PUT http://localhost:7000/livros/2 HTTP/1.1
+# content-type: application/json
+
+# {
+#   "id": 2,
+#   "nome": "Livro 2 - Alterado"
+# }
+
+# DELETE http://localhost:7000/livros/1 HTTP/1.1
+# content-type: application/json
