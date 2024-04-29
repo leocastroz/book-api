@@ -1,0 +1,10 @@
+POST http://localhost:7000/livros HTTP/1.1
+content-type: application/json
+
+{
+  "titulo": "Galinhas do porto",
+  "editora": "Ficção",
+  "paginas": 10,
+  "preco": 11,
+  "autor": "662f18bebec6e860e078adb4"
+}

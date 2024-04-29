@@ -1,0 +1,8 @@
+POST http://localhost:7000/autores HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "Leonardo Gaspar",
+  "editora": "Casa do Código",
+  "nacionalidade": "Brasileiro"
+}

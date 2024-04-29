@@ -1,0 +1,6 @@
+PUT http://localhost:7000/livros/662f1031b9242c84b808d511 HTTP/1.1
+content-type: application/json
+
+{
+  "editora": "Desenho e Arte"
+}
